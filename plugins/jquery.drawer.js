@@ -1,5 +1,5 @@
 /**
- * EasyUI for jQuery 1.10.19
+ * EasyUI for jQuery 1.11.0
  * 
  * Copyright (c) 2009-2024 www.jeasyui.com. All rights reserved.
  *
@@ -7,7 +7,7 @@
  * To use it on other terms please contact us: info@jeasyui.com
  *
  */
-(function($){
+ (function($){
 function _1(_2){
 var _3=$.data(_2,"drawer").options;
 $(_2).dialog($.extend({},_3,{cls:"drawer f-column window-shadow layout-panel layout-collapsed layout-panel-"+_3.region,bodyCls:"f-full",collapsed:false,top:0,left:"auto",right:"auto",onResize:function(w,h){

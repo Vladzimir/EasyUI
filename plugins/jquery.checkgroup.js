@@ -1,5 +1,5 @@
 /**
- * EasyUI for jQuery 1.10.19
+ * EasyUI for jQuery 1.11.0
  * 
  * Copyright (c) 2009-2024 www.jeasyui.com. All rights reserved.
  *
@@ -7,7 +7,7 @@
  * To use it on other terms please contact us: info@jeasyui.com
  *
  */
-(function($){
+ (function($){
 var _1=1;
 function _2(_3){
 var _4=$.data(_3,"checkgroup");

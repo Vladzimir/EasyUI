@@ -1,5 +1,5 @@
 /**
- * EasyUI for jQuery 1.10.19
+ * EasyUI for jQuery 1.11.0
  * 
  * Copyright (c) 2009-2024 www.jeasyui.com. All rights reserved.
  *
@@ -7,7 +7,7 @@
  * To use it on other terms please contact us: info@jeasyui.com
  *
  */
-(function($){
+ (function($){
 function _1(_2){
 var _3=$.data(_2,"datalist").options;
 $(_2).datagrid($.extend({},_3,{cls:"datalist"+(_3.lines?" datalist-lines":""),frozenColumns:(_3.frozenColumns&&_3.frozenColumns.length)?_3.frozenColumns:(_3.checkbox?[[{field:"_ck",checkbox:true}]]:undefined),columns:(_3.columns&&_3.columns.length)?_3.columns:[[{field:_3.textField,width:"100%",formatter:function(_4,_5,_6){
