@@ -1,5 +1,5 @@
 /**
- * EasyUI for jQuery 1.11.2
+ * EasyUI for jQuery 1.11.3
  * 
  * Copyright (c) 2009-2025 www.jeasyui.com. All rights reserved.
  *
@@ -36,12 +36,23 @@ _d.data=_c;
 $(_b).empty();
 var ul=$("<ul class=\"timeline\"></ul").appendTo(_b);
 ul.addClass("timeline-"+_d.align);
+if(_d.align=="alternateReverse"){
+ul.addClass("timeline-alternate");
+}
 var _e=false;
 for(var i=0;i<_d.data.length;i++){
 var _f=_d.data[i];
 var li=$("<li class=\"timeline-item\"></li>").appendTo(ul);
+if(_d.align=="alternate"||_d.align=="alternateReverse"){
+var pos=_d.itemPosition.call(_b,_f,i);
+if(!pos){
 if(_d.align=="alternate"){
-li.addClass((i+1)%2==1?"timeline-item-left":"timeline-item-right");
+pos=(i+1)%2==1?"left":"right";
+}else{
+pos=(i+1)%2==1?"right":"left";
+}
+}
+li.addClass("timeline-item-"+pos);
 }
 var _10=$("<div class=\"timeline-item-line\"></div>").appendTo(li);
 var dot=$("<div class=\"timeline-item-dot\"></div>").appendTo(li);
@@ -102,6 +113,8 @@ return null;
 return row["label"];
 },formatter:function(row){
 return row["content"];
+},itemPosition:function(row,_1b){
+return null;
 },onClick:function(row){
 }};
 })(jQuery);
