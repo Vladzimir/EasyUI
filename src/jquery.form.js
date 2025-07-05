@@ -1,7 +1,7 @@
 /**
- * EasyUI for jQuery 1.11.0
+ * EasyUI for jQuery 1.11.1
  * 
- * Copyright (c) 2009-2024 www.jeasyui.com. All rights reserved.
+ * Copyright (c) 2009-2025 www.jeasyui.com. All rights reserved.
  *
  * Licensed under the freeware license: http://www.jeasyui.com/license_freeware.php
  * To use it on other terms please contact us: info@jeasyui.com
@@ -274,7 +274,7 @@
 		}
 		
 		function _loadBox(name, val){
-			var field = $(target).find('[textboxName="'+name+'"],[sliderName="'+name+'"]');
+			var field = $(target).find('[textboxName="'+name+'"],[sliderName="'+name+'"],[rateName="'+name+'"]');
 			if (field.length){
 				for(var i=0; i<opts.fieldTypes.length; i++){
 					var type = opts.fieldTypes[i];
@@ -488,7 +488,7 @@
 	
 	$.fn.form.defaults = {
 		fieldTypes: ['tagbox','combobox','combotree','combogrid','combotreegrid','datetimebox','datebox','timepicker','combo',
-		        'datetimespinner','timespinner','numberspinner','spinner',
+		        'datetimespinner','timespinner','numberspinner','spinner','rate',
 		        'slider','searchbox','numberbox','passwordbox','filebox','textbox','switchbutton','radiobutton','checkbox'],
 		novalidate: false,
 		focusOnValidate: true,
