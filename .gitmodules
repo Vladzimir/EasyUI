@@ -1,0 +1,51 @@
+[submodule "extensions/color"]
+	path = extensions/color
+	url = https://github.com/Vladzimir/ExtEasyUI_color.git
+[submodule "extensions/columns-ext"]
+	path = extensions/columns-ext
+	url = https://github.com/Vladzimir/ExtEasyUI_columns-ext.git
+[submodule "extensions/datagrid-cellediting"]
+	path = extensions/datagrid-cellediting
+	url = https://github.com/Vladzimir/ExtEasyUI_datagrid-cellediting.git
+[submodule "extensions/datagrid-dnd"]
+	path = extensions/datagrid-dnd
+	url = https://github.com/Vladzimir/ExtEasyUI_datagrid-dnd.git
+[submodule "extensions/datagrid-export"]
+	path = extensions/datagrid-export
+	url = https://github.com/Vladzimir/ExtEasyUI_datagrid-export.git
+[submodule "extensions/datagrid-filter"]
+	path = extensions/datagrid-filter
+	url = https://github.com/Vladzimir/ExtEasyUI_datagrid-filter.git
+[submodule "extensions/datagrid-view"]
+	path = extensions/datagrid-view
+	url = https://github.com/Vladzimir/ExtEasyUI_datagrid-view.git
+[submodule "extensions/desktop"]
+	path = extensions/desktop
+	url = https://github.com/Vladzimir/ExtEasyUI_desktop.git
+[submodule "extensions/edatagrid"]
+	path = extensions/edatagrid
+	url = https://github.com/Vladzimir/ExtEasyUI_edatagrid.git
+[submodule "extensions/etree"]
+	path = extensions/etree
+	url = https://github.com/Vladzimir/ExtEasyUI_etree.git
+[submodule "extensions/filterbuilder"]
+	path = extensions/filterbuilder
+	url = https://github.com/Vladzimir/ExtEasyUI_filterbuilder.git
+[submodule "extensions/pivotgrid"]
+	path = extensions/pivotgrid
+	url = https://github.com/Vladzimir/ExtEasyUI_pivotgrid.git
+[submodule "extensions/portal"]
+	path = extensions/portal
+	url = https://github.com/Vladzimir/ExtEasyUI_portal.git
+[submodule "extensions/ribbon"]
+	path = extensions/ribbon
+	url = https://github.com/Vladzimir/ExtEasyUI_ribbon.git
+[submodule "extensions/rtl"]
+	path = extensions/rtl
+	url = https://github.com/Vladzimir/ExtEasyUI_rtl.git
+[submodule "extensions/texteditor"]
+	path = extensions/texteditor
+	url = https://github.com/Vladzimir/ExtEasyUI_texteditor.git
+[submodule "extensions/treegrid-dnd"]
+	path = extensions/treegrid-dnd
+	url = https://github.com/Vladzimir/ExtEasyUI_treegrid-dnd.git
