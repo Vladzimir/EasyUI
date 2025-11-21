@@ -1,5 +1,5 @@
 /**
- * EasyUI for jQuery 1.11.3
+ * EasyUI for jQuery 1.11.4
  * 
  * Copyright (c) 2009-2025 www.jeasyui.com. All rights reserved.
  *
@@ -561,6 +561,9 @@ td.removeClass("datagrid-header-over");
 };
 function _8a(e){
 var _8b=_89(e.target);
+if(!_8b){
+return;
+}
 var _8c=$(_8b).datagrid("options");
 var ck=$(e.target).closest("input[type=checkbox]");
 if(ck.length){
